@@ -1,0 +1,103 @@
+{
+  "theme": "light",
+  "archetype": "1 (Organic & Earthy / Trust & Service)",
+  "colors": {
+    "primary": "#00A1DE",
+    "primary_hover": "#008CBE",
+    "accent": "#FAD201",
+    "accent_hover": "#E5BE00",
+    "background": "#FAFAFA",
+    "surface": "#FFFFFF",
+    "surface_glass": "rgba(255, 255, 255, 0.8)",
+    "text_main": "#0F172A",
+    "text_muted": "#475569",
+    "border": "#E2E8F0"
+  },
+  "typography": {
+    "import_url": "https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@800,500,700,400,900&f[]=satoshi@900,700,500,300,400&display=swap",
+    "headings": "Cabinet Grotesk, sans-serif",
+    "body": "Satoshi, sans-serif",
+    "rules": {
+      "h1": "text-5xl md:text-6xl tracking-tighter font-black",
+      "h2": "text-3xl md:text-4xl tracking-tight font-bold",
+      "h3": "text-xl md:text-2xl font-semibold",
+      "body": "text-base md:text-lg leading-relaxed text-slate-600",
+      "labels": "text-xs tracking-[0.15em] uppercase font-bold"
+    }
+  },
+  "spacing_and_layout": {
+    "general": "Use generous padding. Sections should have py-24 or py-32.",
+    "container": "max-w-7xl mx-auto px-6 md:px-12",
+    "hero_layout": "grid grid-cols-1 lg:grid-cols-12 gap-12 items-center. Left side text (col-span-12 lg:col-span-7), right side image (col-span-12 lg:col-span-5).",
+    "bento_grid": "For the Problem Section, use a 3-column grid (grid-cols-1 md:grid-cols-3 gap-6). Cards must have pure white background, 1px border-slate-200, p-8, rounded-2xl."
+  },
+  "motion_and_interactions": {
+    "hover_states": "Buttons must have explicit hover states (e.g., hover:scale-105 hover:bg-[#008CBE] transition-all duration-300). Cards should have -translate-y-1 and shadow-lg on hover.",
+    "scroll_animations": "Use framer-motion for simple fade-in-up on scroll for sections.",
+    "header": "Sticky glassmorphism header: fixed top-0 w-full z-50 backdrop-blur-xl bg-white/80 border-b border-slate-100."
+  },
+  "components": {
+    "buttons": "Rounded-full for friendly, approachable feel. Primary uses #00A1DE with white text. Accent CTA uses #FAD201 with black text. Include data-testid attributes.",
+    "inputs": "Shadcn UI styling with rounded-xl, 1px border-slate-200, focus:ring-2 focus:ring-[#00A1DE]/50 focus:border-[#00A1DE].",
+    "language_switcher": "Dropdown menu in top right. Persists selection in localStorage. Options: Kinyarwanda (RW - default), English (EN), French (FR), Swahili (SW)."
+  },
+  "media": {
+    "logo": "https://customer-assets.emergentagent.com/job_aee25a89-4c67-409f-a01f-29898f60a829/artifacts/aipw5kaf_WhatsApp%20Image%202026-04-03%20at%2021.59.56%20%281%29.jpeg",
+    "images": [
+      {
+        "category": "hero",
+        "url": "https://images.pexels.com/photos/6868799/pexels-photo-6868799.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "African courier outdoors, active delivery scene. Use in Hero section right side, with rounded-3xl corners and subtle shadow."
+      },
+      {
+        "category": "promise_section",
+        "url": "https://images.pexels.com/photos/6869040/pexels-photo-6869040.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Confident delivery person holding parcels. Used in the Our Promise section."
+      }
+    ],
+    "icons": {
+      "library": "lucide-react",
+      "problem_section": {
+        "trust": "ShieldAlert / ShieldCheck",
+        "time": "Clock",
+        "damaged": "PackageX"
+      }
+    }
+  },
+  "content_strategy": {
+    "hero": {
+      "badge": "40% discount for your first month (Use accent #FAD201 background)",
+      "title": "Secure courier delivery in Kigali.",
+      "subtitle": "Pay with MoMo, Airtel Money, or Cash on Delivery. Track your parcel with a 6-digit code.",
+      "ctas": ["Send Parcel", "Track Parcel"]
+    },
+    "problem_section": {
+      "title": "Delivery in Kigali shouldn't feel like a gamble.",
+      "cards": [
+        "Trust who delivers your package",
+        "Lose time not knowing where it is",
+        "Received damaged product"
+      ]
+    },
+    "promise_section": {
+      "title": "Your time and your packages — that's what we value the most.",
+      "subtitle": "We make sure every parcel arrives on time and safe."
+    },
+    "waitlist_section": {
+      "action": "Email Waitlist Signup for Google Sheets"
+    },
+    "social": {
+      "instagram": "@parcela.rw",
+      "tiktok": "@parcela.rw"
+    }
+  },
+  "instructions_to_main_agent": [
+    "Install and use framer-motion for smooth entrance animations.",
+    "Use Lucide-React for all icons.",
+    "Implement the multi-language logic using a simple React Context or i18next, defaulting to 'rw' (Kinyarwanda).",
+    "Create the email waitlist form mimicking a submission to an API endpoint (can just be a mocked fetch call returning success for MVP).",
+    "Apply `data-testid` to all CTAs, navigation links, and forms.",
+    "In index.css, add the font imports for Cabinet Grotesk and Satoshi.",
+    "Never use generic placeholders. Use the provided text, colors, and media URLs exactly."
+  ]
+}

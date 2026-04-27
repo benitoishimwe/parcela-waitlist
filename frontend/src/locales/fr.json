@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "problem": "Le Problème",
+    "promise": "Notre Promesse",
+    "waitlist": "Liste d'attente",
+    "cta": "Envoyer un colis"
+  },
+  "hero": {
+    "badge": "40% de remise sur votre premier mois",
+    "title_line1": "Livraison de colis sécurisée",
+    "title_highlight": "à Kigali.",
+    "subtitle": "Envoyez un colis. Payez uniquement à la livraison — si vous le souhaitez. Livraison fiable, de l'expéditeur au destinataire. Choisissez MoMo, Airtel Money, ou Cash on Delivery avec un petit acompte. Suivez chaque étape, validez avec un code à 6 chiffres à la porte.",
+    "cta_send": "Envoyer un colis",
+    "cta_track": "Suivre un colis",
+    "stat_verified": "Coursiers vérifiés",
+    "stat_payment": "Plusieurs moyens de paiement"
+  },
+  "problem": {
+    "eyebrow": "Le Problème",
+    "title": "À Kigali, livrer ne devrait pas ressembler à un pari.",
+    "subtitle": "Chaque jour, les gens font face aux mêmes problèmes :",
+    "card1_title": "Faites-vous confiance à celui qui livre votre colis ?",
+    "card1_body": "Arrêtez de deviner. Nos coursiers sont vérifiés et suivis de bout en bout.",
+    "card2_title": "Perdez-vous du temps sans savoir où il se trouve ?",
+    "card2_body": "Plus d'attente toute la journée. Suivez votre colis en temps réel.",
+    "card3_title": "Avez-vous reçu un produit endommagé ?",
+    "card3_body": "Jamais plus. Nous traitons votre colis comme s'il était le nôtre."
+  },
+  "promise": {
+    "eyebrow": "Notre Promesse",
+    "title": "Votre temps et vos colis — voilà ce qui compte le plus.",
+    "subtitle": "Nous nous assurons que chaque colis arrive à temps et en toute sécurité.",
+    "point1": "Livraison à l'heure",
+    "point2": "Colis manipulés en sécurité",
+    "point3": "Code de vérification à 6 chiffres"
+  },
+  "features": {
+    "eyebrow": "Comment ça marche",
+    "title": "Une façon plus simple d'expédier",
+    "f1_title": "Porte à porte",
+    "f1_body": "Indiquez l'adresse du destinataire sur la carte. Nous nous occupons du reste.",
+    "f2_title": "Paiement à la livraison",
+    "f2_body": "Payez un petit acompte. Le destinataire paie le reste à la porte.",
+    "f3_title": "Vérification à 6 chiffres",
+    "f3_body": "Le destinataire donne un code pour confirmer la livraison. Aucune erreur."
+  },
+  "waitlist": {
+    "eyebrow": "Rejoignez la liste",
+    "title": "Soyez le premier informé du lancement de Parcela.",
+    "subtitle": "Laissez votre e-mail et recevez un accès anticipé et 40% de remise sur le premier mois.",
+    "placeholder": "vous@exemple.com",
+    "submit": "Rejoindre",
+    "success": "Inscription réussie ! Nous vous contacterons bientôt.",
+    "error": "Une erreur s'est produite. Réessayez.",
+    "invalid": "Veuillez entrer une adresse e-mail valide."
+  },
+  "footer": {
+    "tagline": "Livraison de colis sécurisée à Kigali.",
+    "follow": "Suivez-nous",
+    "rights": "Tous droits réservés."
+  },
+  "lang": {
+    "rw": "Kinyarwanda",
+    "en": "English",
+    "fr": "Français",
+    "sw": "Kiswahili"
+  }
+}

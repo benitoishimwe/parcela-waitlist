@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "problem": "Tatizo",
+    "promise": "Ahadi Yetu",
+    "waitlist": "Jiunge",
+    "cta": "Tuma Kifurushi"
+  },
+  "hero": {
+    "badge": "Punguzo la 40% kwa mwezi wako wa kwanza",
+    "title_line1": "Utumaji salama wa vifurushi",
+    "title_highlight": "Kigali.",
+    "subtitle": "Tuma kifurushi. Lipa tu wakati wa kupokea — ukipenda. Utoaji wa kuaminika kutoka kwa mtumaji hadi mpokeaji. Chagua MoMo, Airtel Money, au malipo ya mkono kwa amana ndogo. Fuatilia kila hatua, thibitisha kwa msimbo wa tarakimu 6 mlangoni.",
+    "cta_send": "Tuma Kifurushi",
+    "cta_track": "Fuatilia Kifurushi",
+    "stat_verified": "Wafanyikazi waliothibitishwa",
+    "stat_payment": "Njia nyingi za malipo"
+  },
+  "problem": {
+    "eyebrow": "Tatizo",
+    "title": "Utoaji huko Kigali haupaswi kuwa kama kamari.",
+    "subtitle": "Kila siku, watu wanaendelea kukutana na changamoto hizi:",
+    "card1_title": "Je, unamwamini anayepeleka kifurushi chako?",
+    "card1_body": "Acha kubahatisha. Wafanyikazi wetu wamethibitishwa na kufuatiliwa kikamilifu.",
+    "card2_title": "Je, unapoteza muda usijue kifurushi kiko wapi?",
+    "card2_body": "Acha kusubiri siku nzima. Tazama kifurushi chako kikiwa njiani moja kwa moja.",
+    "card3_title": "Je, umewahi kupokea bidhaa iliyoharibika?",
+    "card3_body": "Haitatokea tena. Tunalichukulia kifurushi chako kama chetu."
+  },
+  "promise": {
+    "eyebrow": "Ahadi Yetu",
+    "title": "Muda wako na vifurushi vyako — ndiyo tunavyothamini zaidi.",
+    "subtitle": "Tunahakikisha kila kifurushi kinafika kwa wakati na salama.",
+    "point1": "Kufika kwa wakati",
+    "point2": "Vifurushi salama",
+    "point3": "Uthibitisho wa msimbo wa tarakimu 6"
+  },
+  "features": {
+    "eyebrow": "Jinsi inavyofanya kazi",
+    "title": "Njia rahisi ya kutuma",
+    "f1_title": "Nyumba hadi Nyumba",
+    "f1_body": "Weka anwani ya mpokeaji kwenye ramani. Sisi tutashughulikia mengine.",
+    "f2_title": "Lipa Wakati wa Kupokea",
+    "f2_body": "Lipa amana ndogo. Mpokeaji atalipa baki mlangoni.",
+    "f3_title": "Uthibitisho wa Tarakimu 6",
+    "f3_body": "Mpokeaji anatoa msimbo kuthibitisha kupokea. Hakuna makosa."
+  },
+  "waitlist": {
+    "eyebrow": "Jiunge na orodha",
+    "title": "Kuwa wa kwanza kujua Parcela inapozinduliwa.",
+    "subtitle": "Acha barua pepe yako tutakuletea taarifa za awali na punguzo la 40% la mwezi wa kwanza.",
+    "placeholder": "wewe@mfano.com",
+    "submit": "Jiunge",
+    "success": "Umejiunga! Tutawasiliana hivi karibuni.",
+    "error": "Kuna hitilafu. Tafadhali jaribu tena.",
+    "invalid": "Tafadhali andika barua pepe sahihi."
+  },
+  "footer": {
+    "tagline": "Utumaji salama wa vifurushi Kigali.",
+    "follow": "Tufuate",
+    "rights": "Haki zote zimehifadhiwa."
+  },
+  "lang": {
+    "rw": "Kinyarwanda",
+    "en": "English",
+    "fr": "Français",
+    "sw": "Kiswahili"
+  }
+}

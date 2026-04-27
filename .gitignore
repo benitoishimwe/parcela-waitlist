@@ -1,0 +1,42 @@
+# dependencies
+node_modules/
+*/node_modules/
+
+# build outputs
+build/
+dist/
+*/build/
+*/dist/
+
+# environment & secrets — NEVER commit
+.env
+*.env
+.env.local
+.env.development
+.env.production
+.env.*.local
+!.env.example
+!*/.env.example
+
+# Google service account credentials
+credentials/
+service-account*.json
+google-credentials*.json
+*.pem
+*.key
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# misc
+coverage/
+.cache/

@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "problem": "Ikibazo",
+    "promise": "Isezerano ryacu",
+    "waitlist": "Iyandikishe",
+    "cta": "Ohereza Pakiti"
+  },
+  "hero": {
+    "badge": "Kigereranyo cya 40% ku kwezi kwa mbere",
+    "title_line1": "Kohereza pakiti mu mutekano",
+    "title_highlight": "muri Kigali.",
+    "subtitle": "Ohereza pakiti. Wishyura igihe pakiti igeze — niba ubishaka. Kohereza neza, kuva ku wohereje kugera ku wohererejwe. Hitamo MoMo, Airtel Money, cyangwa Cash on Delivery hamwe n'amafaranga make y'ibanza. Kurikirana buri ntambwe, emeza ukoresheje kode y'imibare 6 ku rugo.",
+    "cta_send": "Ohereza Pakiti",
+    "cta_track": "Reba aho pakiti igeze",
+    "stat_verified": "Aboha bemejwe",
+    "stat_payment": "Uburyo bwo kwishyura"
+  },
+  "problem": {
+    "eyebrow": "Ikibazo",
+    "title": "Kohereza pakiti i Kigali ntibikwiye kuba ipari.",
+    "subtitle": "Buri munsi, abanyarwanda baracyahura n'ibibazo bisa nibi:",
+    "card1_title": "Wizera uwo upakira pakiti yawe?",
+    "card1_body": "Ntubigire mu rwego rw'amayobera. Aboha bacu bemejwe kandi barakurikiranwa.",
+    "card2_title": "Utakaza igihe utazi aho pakiti igeze?",
+    "card2_body": "Ntukomeze gutegereza umusi wose. Reba aho pakiti igeze mu gihe nyacyo.",
+    "card3_title": "Wahawe igikoresho cyangiritse?",
+    "card3_body": "Ntibikongere kubaho. Twita ku pakiti yawe nk'aho ari iyacu."
+  },
+  "promise": {
+    "eyebrow": "Isezerano ryacu",
+    "title": "Igihe cyawe na pakiti yawe — ni byo dushyira mbere.",
+    "subtitle": "Twemeza ko buri pakiti igera ku gihe kandi mu mutekano.",
+    "point1": "Itangwa ku gihe",
+    "point2": "Pakiti zifite umutekano",
+    "point3": "Iyemeza rya kode y'imibare 6"
+  },
+  "features": {
+    "eyebrow": "Uburyo bworoshye",
+    "title": "Uburyo bworoshye bwo kohereza",
+    "f1_title": "Ku rugo no ku rugo",
+    "f1_body": "Erekana aderesi ku ikarita. Twebwe twe dukora ibisigaye.",
+    "f2_title": "Wishyura igihe pakiti igeze",
+    "f2_body": "Ishyura amafaranga make y'ibanza. Uwakira yishyura ibisigaye ku rugo.",
+    "f3_title": "Iyemeza rya kode 6",
+    "f3_body": "Uwakira atanga kode kugira ngo iyemeze itangwa ry'ipakiti."
+  },
+  "waitlist": {
+    "eyebrow": "Iyandikishe mbere",
+    "title": "Ba uwa mbere kumenya iyo Parcela itangiye.",
+    "subtitle": "Andika imeyili yawe maze tuzakubwira igihe cya mbere kandi uzabona kigereranyo cya 40%.",
+    "placeholder": "Imeyili yawe",
+    "submit": "Iyandikishe",
+    "success": "Murakoze! Twongeyeho imeyili yawe.",
+    "error": "Habayeho ikibazo. Ongera ugerageze.",
+    "invalid": "Andika imeyili nyayo."
+  },
+  "footer": {
+    "tagline": "Kohereza pakiti mu mutekano muri Kigali.",
+    "follow": "Dukurikire",
+    "rights": "Uburenganzira bwose burabitswe."
+  },
+  "lang": {
+    "rw": "Kinyarwanda",
+    "en": "English",
+    "fr": "Français",
+    "sw": "Kiswahili"
+  }
+}

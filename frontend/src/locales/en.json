@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "problem": "The Problem",
+    "promise": "Our Promise",
+    "waitlist": "Join Waitlist",
+    "cta": "Send Parcel"
+  },
+  "hero": {
+    "badge": "40% discount for your first month",
+    "title_line1": "Secure courier delivery",
+    "title_highlight": "in Kigali.",
+    "subtitle": "Send a parcel. Pay only on delivery — if you choose. Reliable parcel delivery, sender to receiver. Choose MoMo, Airtel Money, or Cash on Delivery with a small deposit. Track every step, verify with a 6-digit code at the door.",
+    "cta_send": "Send Parcel",
+    "cta_track": "Track Parcel",
+    "stat_verified": "Verified couriers",
+    "stat_payment": "Multiple payment options"
+  },
+  "problem": {
+    "eyebrow": "The Problem",
+    "title": "Delivery in Kigali shouldn't feel like a gamble.",
+    "subtitle": "Every day, people across Rwanda still face these issues:",
+    "card1_title": "Do you trust who delivers your package?",
+    "card1_body": "Stop guessing. Our couriers are vetted, ID-verified and tracked end-to-end.",
+    "card2_title": "Do you lose time not knowing where it is?",
+    "card2_body": "No more waiting all day. Watch your parcel move in real time.",
+    "card3_title": "Have you received a damaged product?",
+    "card3_body": "Never again. We treat your parcel like it's our own."
+  },
+  "promise": {
+    "eyebrow": "Our Promise",
+    "title": "Your time and your packages — that's what we value the most.",
+    "subtitle": "We make sure every parcel arrives on time and safe.",
+    "point1": "On-time delivery",
+    "point2": "Parcels handled safely",
+    "point3": "6-digit code verification"
+  },
+  "features": {
+    "eyebrow": "How it works",
+    "title": "A simpler way to ship",
+    "f1_title": "Door-to-Door",
+    "f1_body": "Pin the receiver's address on a map. We handle the rest.",
+    "f2_title": "Cash on Delivery",
+    "f2_body": "Pay a small deposit. Receiver pays the rest at the door.",
+    "f3_title": "6-Digit Verification",
+    "f3_body": "Receiver gives a code to confirm delivery. No mistakes."
+  },
+  "waitlist": {
+    "eyebrow": "Join the waitlist",
+    "title": "Be the first to know when Parcela goes live.",
+    "subtitle": "Drop your email and we'll send you early access plus your 40% first-month discount.",
+    "placeholder": "you@example.com",
+    "submit": "Join waitlist",
+    "success": "You're in! We'll be in touch soon.",
+    "error": "Something went wrong. Please try again.",
+    "invalid": "Please enter a valid email."
+  },
+  "footer": {
+    "tagline": "Secure courier delivery in Kigali.",
+    "follow": "Follow us",
+    "rights": "All rights reserved."
+  },
+  "lang": {
+    "rw": "Kinyarwanda",
+    "en": "English",
+    "fr": "Français",
+    "sw": "Kiswahili"
+  }
+}

@@ -6,6 +6,7 @@ import Problem from "./components/Problem";
 import Promise from "./components/Promise";
 import Features from "./components/Features";
 import Waitlist from "./components/Waitlist";
+import JoinWaitlist from "./components/JoinWaitlist";
 import Footer from "./components/Footer";
 import "./App.css";
 
@@ -20,6 +21,7 @@ function App() {
           <Promise />
           <Features />
           <Waitlist />
+          <JoinWaitlist />
         </main>
         <Footer />
       </div>

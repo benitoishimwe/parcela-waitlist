@@ -54,6 +54,21 @@
     "error": "Kuna hitilafu. Tafadhali jaribu tena.",
     "invalid": "Tafadhali andika barua pepe sahihi."
   },
+  "joinWaitlist": {
+    "title": "Jiunge na orodha ya kusubiri",
+    "subtitle": "Kuwa wa kwanza kujua Parcela inapokuwa tayari.",
+    "support": "Acha barua pepe yako na tutakutumia ufikiaji wa mapema pamoja na punguzo la 40% kwa mwezi wako wa kwanza.",
+    "email_label": "Barua pepe",
+    "email_placeholder": "wewe@mfano.com",
+    "name_label": "Jina kamili (si lazima)",
+    "name_placeholder": "Jina lako",
+    "phone_label": "Nambari ya simu (si lazima)",
+    "phone_placeholder": "+250 7xx xxx xxx",
+    "submit": "Jiunge na orodha",
+    "success": "Umefanikiwa! Tutawasiliana hivi karibuni.",
+    "invalid": "Tafadhali andika barua pepe sahihi.",
+    "error": "Kuna hitilafu. Tafadhali jaribu tena."
+  },
   "footer": {
     "tagline": "Utumaji salama wa vifurushi Kigali.",
     "follow": "Tufuate",

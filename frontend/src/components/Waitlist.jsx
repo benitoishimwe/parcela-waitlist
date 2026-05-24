@@ -78,7 +78,7 @@ export default function Waitlist() {
                     if (status === "invalid" || status === "error") setStatus("idle");
                   }}
                   placeholder={t("waitlist.placeholder")}
-                  className="brand-input pl-11"
+                  className="brand-input !pl-11"
                   data-testid="waitlist-email-input"
                   required
                 />

@@ -54,6 +54,21 @@
     "error": "Something went wrong. Please try again.",
     "invalid": "Please enter a valid email."
   },
+  "joinWaitlist": {
+    "title": "Join the waitlist",
+    "subtitle": "Be the first to know when Parcela is ready to launch.",
+    "support": "Leave your email and we'll send you early access plus a 40% discount on your first month.",
+    "email_label": "Email",
+    "email_placeholder": "you@example.com",
+    "name_label": "Full name (optional)",
+    "name_placeholder": "Your name",
+    "phone_label": "Phone number (optional)",
+    "phone_placeholder": "+250 7xx xxx xxx",
+    "submit": "Join the waitlist",
+    "success": "Success! We'll be in touch soon.",
+    "invalid": "Please enter a valid email.",
+    "error": "Something went wrong. Please try again."
+  },
   "footer": {
     "tagline": "Secure courier delivery in Kigali.",
     "follow": "Follow us",

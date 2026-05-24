@@ -54,6 +54,21 @@
     "error": "Habayeho ikibazo. Ongera ugerageze.",
     "invalid": "Andika imeyili nyayo."
   },
+  "joinWaitlist": {
+    "title": "Injira ku rutonde rw'itegereje",
+    "subtitle": "Ba uwa mbere umenya igihe Parcela izatangira gukora.",
+    "support": "Tugezaho imeyili yawe, tukwoherereze uburyo bwo kuyigeraho hakiri kare ndetse n'igabanyirizwa rya 40% ku kwezi kwawe kwa mbere.",
+    "email_label": "Imeyili",
+    "email_placeholder": "wowe@urugero.com",
+    "name_label": "Amazina yawe (si ngombwa)",
+    "name_placeholder": "Amazina yawe",
+    "phone_label": "Numero ya telefone (si ngombwa)",
+    "phone_placeholder": "+250 7xx xxx xxx",
+    "submit": "Injira ku rutonde",
+    "success": "Byakunze! Tuzakuvugisha vuba.",
+    "invalid": "Andika imeyili nyayo.",
+    "error": "Habayeho ikibazo. Ongera ugerageze."
+  },
   "footer": {
     "tagline": "Kohereza pakiti mu mutekano muri Kigali.",
     "follow": "Dukurikire",

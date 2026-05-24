@@ -36,7 +36,7 @@ const SHEETS_CONFIGURED = !!(
   process.env.GOOGLE_SHEET_ID
 );
 
-async function appendToSheet({ email, timestamp, language, source }) {
+async function appendToSheet({ email, name, phone, timestamp, language, source }) {
   if (!SHEETS_CONFIGURED) {
     return { ok: false, reason: 'sheets_not_configured' };
   }
@@ -48,9 +48,9 @@ async function appendToSheet({ email, timestamp, language, source }) {
   const sheets = google.sheets({ version: 'v4', auth });
   await sheets.spreadsheets.values.append({
     spreadsheetId: process.env.GOOGLE_SHEET_ID,
-    range: 'Sheet1!A:D',
+    range: 'Sheet1!A:F',
     valueInputOption: 'RAW',
-    requestBody: { values: [[email, timestamp, language, source]] },
+    requestBody: { values: [[email, timestamp, language, source, name || '', phone || '']] },
   });
   return { ok: true };
 }
@@ -59,6 +59,8 @@ async function appendToSheet({ email, timestamp, language, source }) {
 const waitlistSchema = z.object({
   email: z.string().email(),
   language: z.enum(['rw', 'en', 'fr', 'sw']),
+  name: z.string().max(100).optional(),
+  phone: z.string().max(30).optional(),
 });
 
 // ----- Routes -----
@@ -75,10 +77,10 @@ app.post('/api/waitlist', async (req, res) => {
       details: parsed.error.flatten(),
     });
   }
-  const { email, language } = parsed.data;
+  const { email, language, name, phone } = parsed.data;
   const timestamp = new Date().toISOString();
   const source = 'Parcela Waiting List';
-  const entry = { email, timestamp, language, source };
+  const entry = { email, timestamp, language, source, ...(name && { name }), ...(phone && { phone }) };
 
   // Always persist to MongoDB as a fallback / audit log.
   try {
